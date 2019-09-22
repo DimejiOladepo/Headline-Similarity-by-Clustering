@@ -10,5 +10,4 @@ least euclidean distance from the processed search headline's coordinate point i
 The headlines were cleaned and processed by lemmatizing, removing stop words and tokenizing. Features from these headlines
 were subsequently vectorized and clustered using k-means elbow method to find the optimum number of clusters which was determined to be 3.
 
-The new headline would be processed using the tokenize function and vectorized in order to predict an appropiate cluster and find the best
-matches from the news headline corpus.
+The new headline would be processed and fitted on the model to predict its cluster and best matches.
