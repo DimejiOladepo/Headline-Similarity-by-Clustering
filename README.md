@@ -1,7 +1,7 @@
 # Clustering-Headlines
 Clustering and Matching News Headlines using K-means
 
-A 75K corpus of news headlines scraped from a News channel's API was used to create a model that clusters these headlines and matches new 
+A 75K corpus of news headlines scraped from a news channel's API was used to create a model that clusters these headlines and matches new 
 headlines with the closest matches from the corpus.
 
 K-means algorithm was used to cluster and determine the optimum number of clusters. Matching was done by finding the headline with the 
