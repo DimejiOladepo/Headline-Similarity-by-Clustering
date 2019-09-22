@@ -5,7 +5,7 @@ A 75K corpus of news headlines scraped from a News channel's API was used to cre
 headlines with the closest matches from the corpus.
 
 K-means algorithm was used to cluster and determine the optimum number of clusters. Matching was done by finding the headline with the 
-least euclidean distance from the processed search text's centroid.
+least euclidean distance from the processed search text's centroid in the same cluster.
 
 The headlines were cleaned and processed by lemmatizing, removing stop words and tokenizing. Features from these headlines
 were subsequently vectorized and clustered using kmeans elbow method to find the optimum number of clusters which was determined to be 3.
